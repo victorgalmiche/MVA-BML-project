@@ -4,3 +4,4 @@ matplotlib
 diffusers
 numpy
 accelerate
+transformers
