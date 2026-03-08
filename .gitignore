@@ -209,5 +209,8 @@ __marimo__/
 
 
 
-# data file
+# data files
 data/
+
+# models files
+models/
