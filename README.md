@@ -29,6 +29,21 @@ The reimplemented method is evaluated on three conditioning tasks:
 - **Denoising**
 - **Class-conditional generation** (generating samples of images corresponding to targeted digits)
 
+
+## Structure of the repository and reproducibility
+
+The implementation of the TDS algorithm is available in the notebook `experiments.ipynb`.
+
+To run the code, start by installing the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+You can then run the cells of the notebook to reproduce the experiments. The notebook calls `classifier_training.py` to train a classifier on the MNIST dataset. This model training is useful for the class-conditioning task. 
+
+Examples of generated images through the conditional sampling tasks with the notebook are in the images folder. 
+
 ## Reference
 
 Wu, L., Trippe, B., Naesseth, C., Blei, D., Cunningham, J.  
